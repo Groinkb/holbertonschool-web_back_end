@@ -46,4 +46,3 @@ class Server:
         index_start, index_end = index
         dataset = self.dataset()
         return dataset[index_start: index_end]
-    
