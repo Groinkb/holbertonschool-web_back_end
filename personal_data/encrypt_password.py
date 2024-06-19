@@ -26,3 +26,4 @@ def is_valid(hashed_password: bytes, password: str) -> bool:
         return True
     else:
         return False
+    
