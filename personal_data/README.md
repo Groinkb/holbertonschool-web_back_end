@@ -1,3 +1,23 @@
-Learning Objectives At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+# Log Filtering Project
 
-Examples of Personally Identifiable Information (PII) How to implement a log filter that will obfuscate PII fields How to encrypt a password and check the validity of an input password How to authenticate to a database using environment variables Requirements All your files will be interpreted/compiled on Ubuntu 18.04 LTS using python3 (version 3.7) 
+This project contains a Python script that connects to a MySQL database, retrieves user data, and logs it while redacting sensitive information.
+
+## Requirements
+- Python 3.7
+- Ubuntu 18.04 LTS
+- MySQL
+- Environment variables for database credentials:
+  - `PERSONAL_DATA_DB_USERNAME`
+  - `PERSONAL_DATA_DB_PASSWORD`
+  - `PERSONAL_DATA_DB_HOST`
+  - `PERSONAL_DATA_DB_NAME`
+
+## Files
+- `log_filter.py`: Main script for filtering log data.
+- `README.md`: This file.
+
+## Usage
+Make sure to set the required environment variables before running the script. Then execute the script:
+
+```sh
+./log_filter.py
