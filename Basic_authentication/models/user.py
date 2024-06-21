@@ -34,7 +34,7 @@ class User(Base):
             self._password = hashlib.sha256(pwd.encode()).hexdigest().lower()
 
     def is_valid_password(self, pwd: str) -> bool:
-        """ Validate sa password
+        """ Validates sa password
         """
         if pwd is None or type(pwd) is not str:
             return False
