@@ -1,6 +1,3 @@
-
-### `log_filter.py`
-
 #!/usr/bin/env python3
 """
 This module connects to a MySQL database, retrieves user data, and logs it while
@@ -133,8 +130,6 @@ def main():
 
     except mysql.connector.Error as err:
         logger.error(f"Error connecting to MySQL: {err}")
-
-    logger.info("Filtered fields:\n" + "\n".join(PII_FIELDS))
 
 
 if __name__ == "__main__":
