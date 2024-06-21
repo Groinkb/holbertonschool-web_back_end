@@ -20,7 +20,7 @@ class User(Base):
 
     @property
     def password(self) -> str:
-        """ Getter of the password
+        """ Getter of the passwords
         """
         return self._password
 
@@ -34,7 +34,7 @@ class User(Base):
             self._password = hashlib.sha256(pwd.encode()).hexdigest().lower()
 
     def is_valid_password(self, pwd: str) -> bool:
-        """ Validate a password
+        """ Validate sa password
         """
         if pwd is None or type(pwd) is not str:
             return False

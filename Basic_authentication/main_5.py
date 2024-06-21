@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-""" Main 5
+""" Main 5s
 """
 import uuid
 from api.v1.auth.basic_auth import BasicAuth
