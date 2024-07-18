@@ -1,0 +1,15 @@
+{
+  "name": "integration-tests-example",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "chai": "^4.3.10",
+    "mocha": "^9.2.2",
+    "sinon": "^18.0.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
