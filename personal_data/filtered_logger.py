@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 This module connects to a MySQL database, retrieves user data, and logs it while
-obfuscating sensitive information.
+obfuscating sensitive information..
 """
 
 import re
